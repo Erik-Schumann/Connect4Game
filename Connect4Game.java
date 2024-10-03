@@ -1,8 +1,8 @@
-import java.util.Properties;
-import java.util.Scanner;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Properties;
+import java.util.Scanner;
 
 /**
  * class to encode a Connect4 game
@@ -21,9 +21,9 @@ public class Connect4Game {
 		int draw = 0;
 		int loose = 0;
 		int playertype1 = 0;
-		int playertype2 = 0;
+		int playertype2 = 2;
 		int rounds = 1;
-		int printAlpha = 0;
+		int printAlpha = 1;
 		//read file
 		try (InputStream input = new FileInputStream(
 			System.getProperty("user.dir") + "/config.properties")) {
