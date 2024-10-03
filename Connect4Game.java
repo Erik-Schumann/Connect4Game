@@ -35,7 +35,7 @@ public class Connect4Game {
 			depth = Integer.valueOf(prop.getProperty("depth"));
 			// get the property value of player 1
 			playertype1 = Integer.valueOf(prop.getProperty("player1"));
-			// get the property value of player 2
+			// get the property value of player 2 
 			playertype2 = Integer.valueOf(prop.getProperty("player2"));
 			// get the property value of rounds
 			rounds = Integer.valueOf(prop.getProperty("rounds"));

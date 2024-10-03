@@ -9,7 +9,7 @@ public class RandomPlayer implements IPlayer{
 	/**
 	 * Constructor to generate a random player
 	 * @param prob Connect4Problem
-	 */
+	 */ 
 	public RandomPlayer( Connect4Problem prob) {
 		this.prob = prob;
 	}

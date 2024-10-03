@@ -132,7 +132,7 @@ public class AIPlayer implements IPlayer{
 		//check if search depth is exceeded
 		if (depth == 0) {
 			//get evaluation
-			return isX*Evaluation(node);
+			return isX*Evaluation(node); 
 		}
 		//set v
 		int v = posInfinity;

@@ -9,8 +9,8 @@ public interface IPlayer {
 	 */
 	int move(Connect4Node state);
 	/**
-	 * function to get the type of a player (as a String)
-	 * @return type
+	 * function to  get the type of a player (as a String)
+	 * @return String name
 	 */
 	String getName();
 	/**

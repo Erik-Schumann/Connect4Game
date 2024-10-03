@@ -5,7 +5,7 @@ import java.util.Arrays;
  */
 public class Connect4Node {
 	String[][] board = null;
-	int move;
+	int move; 
 	/**
 	 * Constructor to generate node with empty board
 	 */

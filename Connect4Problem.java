@@ -7,7 +7,7 @@ import java.util.List;
 public class Connect4Problem {
 	/**
 	 * Constructor to generate the Connect4 Problem
-	 */
+	 */ 
 	public Connect4Problem() {
 	}
 

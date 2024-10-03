@@ -5,12 +5,12 @@
 Assignment Report 3: Implementation of the Alpha-Beta-Pruning Algorithm with Connect4
 CSCI 485: Advanced Topics in General Computer Science: Foundations of AI
 Erik Schumann
-667072862
+667072862 
 ____________________________________________________________________________________________________________________________________________________________________________
 1.How to compile and execute your program? If your source code files need to be placed into subfolders in order to use the makefile, explain how the files should be organized.
 
 In the beginning the following files should be in the folder:
-
+ 
 AIPlayer.java		Connect4Node.java	HumanPlayer.java	README.txt		config.properties
 Connect4Game.java	Connect4Problem.java	IPlayer.java		RandomPlayer.java
 

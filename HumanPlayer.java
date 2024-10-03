@@ -7,7 +7,7 @@ public class HumanPlayer implements IPlayer{
 	Scanner sc;
 	Connect4Problem prob;
 	int cuttedTree = 0;
-	/**
+	/** 
 	 * Constructor to generate a human player
 	 * @param sc Scanner object
 	 * @param prob Connect4Problem
